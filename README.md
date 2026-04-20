@@ -1,4 +1,4 @@
-# ⚠️ YOU NEED TO DOWNLOAD STREAM FROM BELOW ⚠️
+# ⚠️ YOU NEED TO DOWNLOAD STREAM FROM BELOW!
 
 ## Download And Drag The Stream Folder Onto The Main Resource Folder.
 ## Download The Stream Files From -- https://drive.google.com/file/d/1E5YriO4W05CnOM_2drGdSZ2VHrNh3hRA
