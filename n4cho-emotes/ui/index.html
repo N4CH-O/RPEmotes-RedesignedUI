@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RP Emotes Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="app" class="hidden">
+        <div class="menu-container">
+            <!-- Top Navigation -->
+            <div class="header">
+                <div class="tabs">
+                    <div class="tab active" data-tab="emotes" title="Emotes">
+                        <i class="fa-solid fa-user-shield"></i>
+                    </div>
+                    <div class="tab" data-tab="walks" title="Walks & Moods">
+                        <i class="fa-solid fa-person-walking"></i>
+                    </div>
+                    <div class="tab" data-tab="shared" title="Shared Emotes">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div class="tab" data-tab="settings" title="Favorites & Binds">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <div class="tab-indicator"></div>
+                </div>
+            </div>
+
+            <div class="main-title">
+                <h2>N4CHO EMOTES</h2>
+            </div>
+
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="cancel-emote-btn">CANCEL EMOTE</button>
+            </div>
+
+            <!-- Tab Contents -->
+            <div class="tab-content active" id="tab-emotes">
+                <!-- Javascript will populate categories and items here -->
+            </div>
+
+            <div class="tab-content" id="tab-walks">
+            </div>
+
+            <div class="tab-content" id="tab-shared">
+            </div>
+
+            <div class="tab-content" id="tab-settings">
+            </div>
+
+        </div>
+        <div id="menu-credits" class="hidden">Built With Love By N4CHO</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
